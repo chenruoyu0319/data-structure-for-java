@@ -104,11 +104,6 @@ class KafkaMsg {
     String msg;
 
     /**
-     * msg在log文件中的偏移量
-     */
-    int position;
-
-    /**
      * msg的唯一序号
      */
     int offset;
